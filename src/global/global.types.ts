@@ -470,7 +470,7 @@ export interface ThemeDefinitionProps {
   pill?: PillThemeProps;
 }
 
-export interface SelectOption {
+export interface SelectorType {
   label: string;
   value: string;
   icon?: React.ReactNode;

@@ -15,13 +15,13 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import React from "react";
-import { OverrideTheme, SelectOption } from "../../global/global.types";
+import { OverrideTheme, SelectorType } from "../../global/global.types";
 import { CommonHelpTipPlacement } from "../HelpTip/HelpTip.types";
 
 export interface RadioGroupProps {
   label?: string;
   tooltip?: string;
-  selectorOptions: SelectOption[];
+  selectorOptions: SelectorType[];
   currentValue: string;
   id: string;
   name: string;
