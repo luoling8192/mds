@@ -1,6 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-declare const VersionsIcon: (
-  props: SVGProps<SVGSVGElement>,
-) => React.JSX.Element;
+declare const VersionsIcon: (props: SVGProps<SVGSVGElement>) => React.JSX.Element;
 export default VersionsIcon;
